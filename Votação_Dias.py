@@ -1,4 +1,4 @@
-# mostra os dias para escolher 
+# mostra os dias para escolher  
 print("Dias disponíveis para votação")
 print("1 - Segunda-feira\n2 - Terça-feira\n3 - Quarta-feira\n4 - Quinta-feira\n5 - Sexta-feira")
 
