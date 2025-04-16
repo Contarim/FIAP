@@ -1,4 +1,4 @@
-print("Escolha o tipo de investimento\n")
+print("Escolha o tipo de investimento\n") 
 print("1. CDB\n2. LCI\n3. LCA\n")
 
 # solicitando ao cliente o tipo de investimento que ele irá fazer o resgate
