@@ -1,4 +1,4 @@
-# coleta o valor da dívida
+# coleta o valor da dívida 
 divida = float(input("Digite o valor da dívida: "))
 print("\n")
 
