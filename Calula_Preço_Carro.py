@@ -1,4 +1,4 @@
-# coleta o valor do carro
+# coleta o valor do carro 
 valor = float(input("\nDigite o preço do carro: "))
 
 # calcula e mostra o valor do carro se for pago á vista
