@@ -1,7 +1,7 @@
 #Uma empresa vai dar uma quantidade de bônus de internet de acordo com a pontuação que o cliente tem, para isso, vamos solicitar ao cliente para informar a quantidade de pontos que ele tem e devolver o resultado de informando o quanto de bônus ele vai ganhar
 
 # 500 pontos = 6GB bonus
-# 200 pontos = 3GB bonus
+# 200 pontos = 3GB bonus 
 # 100 pontos = 1GB bonus
 
 print('Olá, segue nossa tabela sobre os bônus de acordo com a quantidade de pontos:\n')
