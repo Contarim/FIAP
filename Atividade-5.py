@@ -1,25 +1,25 @@
 print("Tipos de Assinatura") 
-print("\n1 - Basic\n2 - Silver\n3 - Gold\n4 - Platinum\n")
+print("\nBasic\nSilver\nGold\nPlatinum\n")
 
-assinatura = int(input("Informe o número correspondente a sua assinatura: "))
+assinatura = input("Informe sua assinatura: ")
 faturamento = float(input("Informe seu faturamento anual: "))
 
 bonus = 0
 
-if assinatura == 1:
-    bonus = faturamento * 0.30
-
-elif assinatura == 2:
-    bonus = faturamento * 0.20
-
-elif assinatura == 3:
-    bonus = faturamento * 0.10
-
-elif assinatura == 4:
+if assinatura.upper() == "BASIC":
     bonus = faturamento * 0.05
+
+elif assinatura.upper() == "SILVER":
+    bonus = faturamento * 0.1
+
+elif assinatura.upper() == "GOLD":
+    bonus = faturamento * 0.2
+
+elif assinatura.upper() == "PLATINUM":
+    bonus = faturamento * 0.3
 
 else:
     print("Número que corresponde à assinatura está incorreto.")
-    exit()  # Encerra o programa se o número da assinatura não for entre 1 e 4
+    exit()  # informa e encerra o programa se a assinatura foi informada errada
 
 print(f"Sua assinatura é a {assinatura}, seu faturamento foi {faturamento} e o bônus a pagar é de {bonus:.2f}")
