@@ -15,14 +15,17 @@ else:
     imposto = 0
 
 # condição IF para verificar se o tipo é igual a 1 (CDB) que é o único investimento com IR, ou seja, se o investimento não for 1 o IR será 0 e vamos pular para o PRINT informando o valor do IR a ser pago
-    if tipo == 1: 
-        if dias <= 180:
+if tipo == 1: 
+    if dias <= 180:
             imposto = valor * 0.225
-        elif dias <= 360:
+    elif dias <= 360:
             imposto = valor * 0.20
-        elif dias <= 720:
+    elif dias <= 720:
             imposto = valor * 0.175
-        else:
+    else:
             imposto = valor * 0.15
 
     print(f"\nO valor do imposto de renda(IR) a ser pago é: R$ {imposto:.2f}\n")
+
+else:
+    print("\nEste tipo de investimento (LCI/LCA) é isento de imposto de renda.")
