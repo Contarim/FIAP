@@ -30,8 +30,7 @@ print("\n")
 print(dicionario.items())
 
 print("\n")
-for item in dicionario.items():
-    produto, descricao = item
+for produto, descricao in dicionario.items():
     print(f"O {produto} é um(a) {descricao}")
 
 
