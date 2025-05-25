@@ -1,4 +1,4 @@
-👋 Olá! Seja muito bem-vindo ao meu portfólio 😊
+👋 Olá! Seja muito bem-vindo ao repositório de estudo 😊
 
 Aqui você vai encontrar meus projetos, estudos e trabalhos desenvolvidos durante minha jornada no curso de Análise e Desenvolvimento de Sistemas (EAD) pela FIAP 🎓💻
 
